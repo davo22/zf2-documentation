@@ -61,4 +61,15 @@ Będziemy potrzebować czterech stron w naszej witrynie:
 |                  | usunąć album, a następnie go usunie.                         |
 +------------------+--------------------------------------------------------------+
 
+Bdziemy również potrzebować bazy danych, by móc przecowywać nasze dane. Wystarczy 
+jedna tabela z poniższymi polami:
 
++------------+--------------+-------+-----------------------------+
+| Nazwa pola | Typ          | Null? | Uwagi                       |
++============+==============+=======+=============================+
+| id         | integer      | Nie   | Primary key, auto-increment |
++------------+--------------+-------+-----------------------------+
+| artist     | varchar(100) | Nie   |                             |
++------------+--------------+-------+-----------------------------+
+| title      | varchar(100) | Nie   |                             |
++------------+--------------+-------+-----------------------------+
