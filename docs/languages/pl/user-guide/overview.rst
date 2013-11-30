@@ -39,3 +39,26 @@ i obsługi plików ``htaccess``.
 .. note::
 
 Alternatywnie, jeśli używasz PHP 5.4+ można użyć zamiast Apache, wbudowanego serwera WWW.
+
+Aplikacja przewodnika
+---------------------
+
+Aplikacja jaką zbudujemy, to  prosty system do wyświetlania spisu albumów które posiadamy.
+Strona główna wyświetli naszą kolekcję i pozwoli nam dodawać, edytować i usuwać płyty. 
+Będziemy potrzebować czterech stron w naszej witrynie:
+
++------------------+--------------------------------------------------------------+
+| Strona           | Opis                                                         |
++==================+==============================================================+
+| Lista albumów    | Wyświetli listę albumów i linki do ich edycji i usuwania.    |
+|                  | Oprócz tego będzie zawierać link do dodania nowego albumu.   |
++------------------+--------------------------------------------------------------+
+| Dodaj nowy album | Ta strona będzie zawierać formularz dodawania nowego albumu. |    
++------------------+--------------------------------------------------------------+
+| Edytuj album     | Ta strona będzie zawierać formularz edycji albumu.           |
++------------------+--------------------------------------------------------------+
+| Usuń album       | Ta strona wyświetli pytanie potwierdzające, czy chcemu       |
+|                  | usunąć album, a następnie go usunie.                         |
++------------------+--------------------------------------------------------------+
+
+
