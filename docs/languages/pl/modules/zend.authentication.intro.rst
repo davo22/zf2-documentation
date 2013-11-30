@@ -76,8 +76,8 @@ uwierzytelniającego jest niemożliwe, metoda ``authenticate()`` powinna wyrzuci
 
 .. _zend.authentication.introduction.results:
 
-Resultat
---------
+Wynik
+-----
 
 Adaptery ``Zend_Auth`` zwracają instancję ``Zend\Auth\Result`` za pomocą metody ``authenticate()`` w celu
 przekazania rezultatu próby uwierzytelniania. Adaptery wypełniają obiekt ``Zend\Auth\Result`` podczas
